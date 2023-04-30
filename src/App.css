@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Instrument+Serif&family=Source+Serif+Pro:wght@200;400&display=swap');
+:root{
+    --roxo-escuro: #382017;
+    --bege-escuro: #c08491;
+    --marrom-escuro: #764446;
+    --branco-bege: #dbbdc3;
+    --bege: #9d606a;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body{
+    background-color: var(--branco-bege);
+    font-family: 'Source Serif Pro', serif;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bege);
+}
+nav a{
+    text-decoration: none;
+    color: #232323;
+    font-size: 48px;
+}
+nav a:hover{
+    color: var(--branco-bege);
+}
+#rose{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding-left: 50px;
+}
+#profile{
+    padding-right: 50px;
+}
+.banner{
+    width: 100%;
+    height: 25rem;
+}
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sobre h1{
+    margin-top: 50px;
+    font-size: 40px;
+    color: #232323;
+    text-align: center;
+}
+.sobre p{
+    margin-top: 20px;
+    max-width: 800px;
+    font-size: 18px;
+    color: #232323;
+    text-align: center;
+}
+.HomeProdutos h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    color: #232323;
+}
+.HomeProdutos{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#img1{
+    padding-left: 50px;
+    width: 700px;
+    height: 900px;
+    margin-top: 20px;
+}
+#img2{
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 700px;
+    height: 900px;
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    padding-top: 50px;
+    font-size: 40px;
+    height: 200px;
+    width: 100%;
+    color: var(--branco-bege);
+    background-color: var(--roxo-escuro);
+}
+footer a{
+    text-decoration: none;
+    color: var(--branco-bege);
+    font-size: 48px;
+}
+footer a:hover{
+    color: #b67583;
+}
+.Produtos{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.row img{
+    max-height: 400px;
+    max-width: 400px;
+    padding-top: 30px;
+}
+.produto{
+    text-align: center;
+}
+.produto h2{
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 15px;
+    color: #232323;
+}
+.produto p{
+    padding-top: 10px;
+    font-size: 18px;
+    color: #232323;
+}
+.title{
+    padding-top: 20px;
+    text-align: center;
+}
+.title h1{
+    font-size: 50px;
+    color: #232323;
+}
+.title p{
+    font-size: 20px;
+    color: #232323;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 53vh;
+}
+.login div{
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+}
+.login input{
+    border: 0px;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 20px;
+}
+.login input::placeholder{
+    font-size: 20px;
+    text-align: center;
+}
+.login h1{
+    margin-top: 50px;
+    font-size: 50px;
+    color: #232323;
+}
+.LoginBtn{
+    margin-top: 20px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--marrom-escuro);
+    color: var(--branco-bege);
+    font-size: 20px;
+    cursor: pointer;
+}

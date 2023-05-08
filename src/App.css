@@ -2,188 +2,158 @@
 :root{
     --roxo-escuro: #382017;
     --bege-escuro: #c08491;
-    --marrom-escuro: #764446;
+    --rosa-roxo: #764446;
     --branco-bege: #dbbdc3;
     --bege: #9d606a;
 }
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
-}
-body{
+    height: 100vh;
     background-color: var(--branco-bege);
     font-family: 'Source Serif Pro', serif;
+    color: #232323;
 }
-.navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--bege);
+#root{
+    height: 100vh;
 }
-nav a{
+a{
     text-decoration: none;
     color: #232323;
-    font-size: 48px;
 }
-nav a:hover{
+.navbar{
+    background-color: var(--bege);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a{
+    font-size: 35px;
+    text-align: center;
+}
+.navbar a:hover{
     color: var(--branco-bege);
 }
-#rose{
-    margin-top: 7px;
-    margin-bottom: 7px;
-    padding-left: 50px;
-}
-#profile{
-    padding-right: 50px;
+.navbar img{
+    margin-left: 20px;
+    margin-right: 20px; 
 }
 .banner{
     width: 100%;
-    height: 25rem;
 }
 .sobre{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+    width: 70vh;
 }
 .sobre h1{
-    margin-top: 50px;
-    font-size: 40px;
-    color: #232323;
-    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
 }
 .sobre p{
-    margin-top: 20px;
-    max-width: 800px;
-    font-size: 18px;
-    color: #232323;
-    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
-.HomeProdutos h1{
-    text-align: center;
-    font-size: 40px;
-    margin-top: 50px;
-    color: #232323;
+.center{
+    display: flex;
+    justify-content: center;
 }
 .HomeProdutos{
+    margin: 0px;
     display: flex;
     flex-direction: column;
-    align-content: center;
+}
+.HomeProdutos h1{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.HomeProdutos img{
+    width: 40vw;
 }
 .row-center{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-#img1{
-    padding-left: 50px;
-    width: 700px;
-    height: 900px;
-    margin-top: 20px;
-}
-#img2{
-    padding-right: 50px;
-    padding-left: 50px;
-    width: 700px;
-    height: 900px;
-    margin-top: 20px;
-}
-footer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 100px;
-    padding-top: 50px;
-    font-size: 40px;
-    height: 200px;
-    width: 100%;
-    color: var(--branco-bege);
-    background-color: var(--roxo-escuro);
-}
-footer a{
-    text-decoration: none;
-    color: var(--branco-bege);
-    font-size: 48px;
-}
-footer a:hover{
-    color: #b67583;
-}
-.Produtos{
-    display: flex;
-    flex-direction: column;
-}
-.row{
-    display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
 }
-.row img{
-    max-height: 400px;
-    max-width: 400px;
-    padding-top: 30px;
+footer{
+    background-color: var(--roxo-escuro);
+    margin-top: 40px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
-.produto{
-    text-align: center;
+footer a{
+    color: var(--branco-bege);
+    font-size: 28px;
 }
-.produto h2{
-    font-weight: bold;
-    font-size: 30px;
-    padding-top: 15px;
-    color: #232323;
-}
-.produto p{
-    padding-top: 10px;
-    font-size: 18px;
-    color: #232323;
-}
-.title{
-    padding-top: 20px;
-    text-align: center;
-}
-.title h1{
-    font-size: 50px;
-    color: #232323;
-}
-.title p{
-    font-size: 20px;
-    color: #232323;
+footer a:hover{
+    color: var(--bege-escuro);
 }
 .login{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-items: center;
+    width: 90vh;
     text-align: center;
-    justify-content: center;
-    height: 53vh;
 }
-.login div{
-    display: flex;
-    flex-direction: column;
-    width: 50vh;
-}
-.login input{
-    border: 0px;
+.login input, button{
     margin-top: 20px;
     height: 40px;
-    border-radius: 20px;
-}
-.login input::placeholder{
-    font-size: 20px;
-    text-align: center;
-}
-.login h1{
-    margin-top: 50px;
-    font-size: 50px;
-    color: #232323;
-}
-.LoginBtn{
-    margin-top: 20px;
-    height: 50px;
     border: none;
     border-radius: 20px;
-    background-color: var(--marrom-escuro);
     color: var(--branco-bege);
+}
+.login button{
+    background-color: var(--roxo-escuro);
+}
+.login{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.divlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 76.8vh;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.title p{
     font-size: 20px;
-    cursor: pointer;
+}
+.Produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.produto img{
+    height: 400px;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.produto h2{
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.produto p{
+    font-size: 16px;
 }

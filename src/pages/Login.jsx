@@ -5,18 +5,18 @@ import '../App.css'
 
 function Login() {
     return (
-        <div>
+        <>
             <Navbar/>
-            <section className='login'>
-                <div>
-                    <h1>Login</h1>
-                    <input type="email" name="email" id="email" placeholder='Email'/>
-                    <input type="password" name="senha" id="senha" placeholder='Senha'/>
-                    <button className='LoginBtn'>Login</button>
-                </div>
-            </section>
+            <div className='divlogin'>
+                <section className='login'>
+                        <h1>Login</h1>
+                        <input type="email" name="email" id="email" placeholder='Email'/>
+                        <input type="password" name="senha" id="senha" placeholder='Senha'/>
+                        <button className='LoginBtn'>Login</button>
+                </section>
+            </div>
             <Footer/>
-        </div>
+        </>
     )
 }
 

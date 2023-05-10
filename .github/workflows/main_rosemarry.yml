@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'RoseMarry'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_26CF5E4F3126482FAD5FE842E0058538 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7A738AF97DFC45B880F29393B7B11654 }}
           package: .

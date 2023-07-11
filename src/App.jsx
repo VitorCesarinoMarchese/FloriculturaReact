@@ -1,20 +1,18 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import './Reset.css'
-import './App.css'
+import './assets/styles/Reset.css'
+import './assets/styles/style.css'
 import Home from "./pages/Home"
-import Login from "./pages/Login"
 import Produtos from "./pages/Produtos"
+import Flor from "./pages/Flor"
 
 function App() {
-
-
   return (
     <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/login" element={<Login/>}/>
           <Route path="/produtos" element={<Produtos/>}/>
+          <Route path="/flor" element={<Flor/>}/>
         </Routes>
       </BrowserRouter>
     </>

@@ -170,6 +170,22 @@ footer a:hover {
   justify-content: center;
 }
 
+.cor {
+  font-size: 4vh;
+}
+.cor input {
+  appearance: none;
+  background-color: #FE5A86;
+  border-radius: 50%;
+  width: 5vh;
+  height: 5vh;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+}
+.cor input:checked {
+  border: 2px solid #382017;
+}
+
 @media (max-width: 768px) {
   .HomeProdutos {
     display: flex;

@@ -2,46 +2,46 @@
     {
         "nome": "Gerbera",
         "preco": "R$ 50,00",
-        "foto": "/src/assets/img/gerbera.jpg"
+        "foto": "/gerbera.jpg"
     },
     {
         "nome": "Girassol",
         "preco": "R$ 30,00",
-        "foto": "/src/assets/img/girassol.jpg"
+        "foto": "/girassol.jpg"
     },
     {
         "nome": "Lavanda",
         "preco": "R$ 20,00",
-        "foto": "/src/assets/img/lavanda.jpg"
+        "foto": "/lavanda.jpg"
     },
     {
         "nome": "Lirio",
         "preco": "R$ 50,00",
-        "foto": "/src/assets/img/lirio.jpg"
+        "foto": "/lirio.jpg"
     },
     {
         "nome": "Margarida",
         "preco": "R$ 40,00",
-        "foto": "/src/assets/img/margarida.jpg"
+        "foto": "/margarida.jpg"
     },
     {
         "nome": "Orquideas",
         "preco": "R$ 70,00",
-        "foto": "/src/assets/img/orquideas.jpg"
+        "foto": "/orquideas.jpg"
     },
     {
         "nome": "Rosas",
         "preco": "R$ 40,00",
-        "foto": "/src/assets/img/rosas.jpg"
+        "foto": "/rosas.jpg"
     },
     {
         "nome": "Tulipas",
         "preco": "R$ 50,00",
-        "foto": "/src/assets/img/tulipas.jpg"
+        "foto": "/tulipas.jpg"
     },
     {
         "nome": "Cerejeira",
         "preco": "R$ 50,00",
-        "foto": "/src/assets/img/cerejeira.jpg"
+        "foto": "/cerejeira.jpg"
     }
 ]
